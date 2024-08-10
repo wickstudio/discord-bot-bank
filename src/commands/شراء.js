@@ -51,9 +51,9 @@ module.exports = {
             houseData.income *= 2;
             await db.set(houseKey, houseData);
 
-            startIncomeProcess(userId, houseData.income, db);
+            startIncomeProcess(userId, houseData.income, db, config);
 
-            return message.reply(`تم شراء المنزل #${houseNumber} بنجاح! الآن ستحصل على دخل قدره $${houseData.income.toLocaleString()} كل 10 ثواني.`);
+            return message.reply(`تم شراء المنزل #${houseNumber} بنجاح! الآن ستحصل على دخل قدره $${houseData.income.toLocaleString()} كل 10 ساعات.`);
         } catch (error) {
             console.error('Error executing شراء command:', error);
             message.reply('حدث خطأ أثناء محاولة شراء المنزل. يرجى المحاولة مرة أخرى.');
@@ -61,7 +61,7 @@ module.exports = {
     }
 };
 
-function startIncomeProcess(userId, income, db) {
+function startIncomeProcess(userId, income, db, config) {
     if (userIncomeProcesses[userId]) {
         clearInterval(userIncomeProcesses[userId]);
     }
@@ -74,5 +74,5 @@ function startIncomeProcess(userId, income, db) {
         } catch (error) {
             console.error(`Error adding income for user ${userId}:`, error);
         }
-    }, 10000);
+    }, config.houseIncomeInterval || 10 * 60 * 60 * 1000);
 }
