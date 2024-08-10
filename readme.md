@@ -19,7 +19,7 @@
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14.0.0 or higher)
+- [Node.js](https://nodejs.org/) (v18.0.0 or higher)
 - [Discord.js](https://discord.js.org/) (v14.0.0 or higher)
 - [Quick.db](https://www.npmjs.com/package/quick.db)
 
@@ -49,25 +49,25 @@
 
 | Command        | Description                                                           | Example Usage                          |
 |----------------|-----------------------------------------------------------------------|----------------------------------------|
-| `راتب`         | Get your daily salary.                                                | `!راتب`                                 |
-| `حظ`           | Try your luck to win a random amount of money.                        | `!حظ`                                   |
-| `استثمار`      | Invest your money with a chance to win or lose.                       | `!استثمار كل`                           |
-| `تداول`        | Trade money with high risks and rewards.                              | `!تداول نص`                             |
-| `قرض`          | Take a loan and repay it later.                                       | `!قرض`                                  |
-| `توب`          | Display the top players by balance.                                   | `!توب`                                  |
-| `نرد`          | Play a risky dice game with other users.                              | `!نرد ربع`                              |
-| `قمار`         | Gamble your money with various betting options.                       | `!قمار كل`                              |
-| `نهب`          | Attempt to rob another user.                                          | `!نهب @username`                        |
-| `حماية`        | Buy a shield to protect yourself from being robbed.                   | `!حماية 3`                              |
-| `شراء`         | Buy a house and start earning a steady income.                        | `!شراء 1`                               |
-| `منازل`        | List available houses for sale.                                       | `!منازل`                                |
-| `شركات`        | List available companies for sale.                                    | `!شركات`                                |
-| `شراء_شركة`    | Buy a company to generate higher income.                              | `!شراء_شركة 2`                          |
-| `بيع_شركة`     | Sell your company to another user.                                    | `!بيع_شركة @username`                   |
-| `فلوسي`        | Check your current balance.                                           | `!فلوسي`                                |
-| `تحويل`        | Transfer money to another user.                                       | `!تحويل @username 1000`                 |
-| `وقت`          | Check remaining cooldown times for your commands.                     | `!وقت`                                  |
-| `يومي`         | Get a daily random gift of money.                                     | `!يومي`                                 |
+| `راتب`         | Get your daily salary.                                                | `راتب`                                 |
+| `حظ`           | Try your luck to win a random amount of money.                        | `حظ`                                   |
+| `استثمار`      | Invest your money with a chance to win or lose.                       | `استثمار كل`                           |
+| `تداول`        | Trade money with high risks and rewards.                              | `تداول نص`                             |
+| `قرض`          | Take a loan and repay it later.                                       | `قرض`                                  |
+| `توب`          | Display the top players by balance.                                   | `توب`                                  |
+| `نرد`          | Play a risky dice game with other users.                              | `نرد ربع`                              |
+| `قمار`         | Gamble your money with various betting options.                       | `قمار كل`                              |
+| `نهب`          | Attempt to rob another user.                                          | `نهب @username`                        |
+| `حماية`        | Buy a shield to protect yourself from being robbed.                   | `حماية 3`                              |
+| `شراء`         | Buy a house and start earning a steady income.                        | `شراء 1`                               |
+| `منازل`        | List available houses for sale.                                       | `منازل`                                |
+| `شركات`        | List available companies for sale.                                    | `شركات`                                |
+| `شراء_شركة`    | Buy a company to generate higher income.                              | `شراء_شركة 2`                          |
+| `بيع_شركة`     | Sell your company to another user.                                    | `بيع_شركة @username`                   |
+| `فلوسي`        | Check your current balance.                                           | `فلوسي`                                |
+| `تحويل`        | Transfer money to another user.                                       | `تحويل @username 1000`                 |
+| `وقت`          | Check remaining cooldown times for your commands.                     | `وقت`                                  |
+| `يومي`         | Get a daily random gift of money.                                     | `يومي`                                 |
 
 ## ⚙️ Configuration
 
