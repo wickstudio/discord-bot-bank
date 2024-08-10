@@ -13,7 +13,7 @@ module.exports = {
 
         for (const company of companies) {
             const ownerInfo = company.owner ? `<@${company.owner}> 🔒` : 'متاح للبيع 🟢';
-            embed.addFields({ name: `${company.name}`, value: `السعر: $${company.price.toLocaleString()}\nالدخل: $${company.rent.toLocaleString()} كل 10 ثواني\nالحالة: ${ownerInfo}`, inline: false });
+            embed.addFields({ name: `${company.name}`, value: `السعر: $${company.price.toLocaleString()}\nالدخل: $${company.rent.toLocaleString()} كل 10 ساعات\nالحالة: ${ownerInfo}`, inline: false });
         }
 
         message.reply({ embeds: [embed] });
