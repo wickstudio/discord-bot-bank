@@ -4,9 +4,7 @@
     "description": "A feature-rich Discord bot for an Arabic bank game, including salary, investment, trading, and more commands.",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
-      "install": "install.bat",
-      "start-bot": "start.bat"
+      "start": "node index.js"
     },
     "keywords": [
       "discord",
