@@ -1,0 +1,38 @@
+{
+    "name": "arabic-bank-game-bot",
+    "version": "1.0.0",
+    "description": "A feature-rich Discord bot for an Arabic bank game, including salary, investment, trading, and more commands.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "install": "install.bat",
+      "start-bot": "start.bat"
+    },
+    "keywords": [
+      "discord",
+      "bot",
+      "arabic",
+      "bank",
+      "game",
+      "investment",
+      "salary",
+      "economy"
+    ],
+    "author": "Wick Studio",
+    "license": "MIT",
+    "dependencies": {
+      "better-sqlite3": "^11.1.2",
+      "discord.js": "^14.15.3",
+      "ms": "^2.1.3",
+      "quick.db": "^9.1.7"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/WickStudio/discord-bot-bank-.git"
+    },
+    "bugs": {
+      "url": "https://github.com/WickStudio/discord-bot-bank/issues"
+    },
+    "homepage": "https://github.com/WickStudio/discord-bot-bank#readme"
+  }
+  
