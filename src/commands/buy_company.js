@@ -49,7 +49,7 @@ module.exports = {
                 } catch (error) {
                     console.error('Error updating rent:', error);
                 }
-            }, config.rentInterval || 10000);
+            }, config.rentInterval || 10 * 60 * 60 * 1000);
         } catch (error) {
             console.error('Error in شراء_شركة command:', error);
             message.reply('حدث خطأ أثناء تنفيذ الأمر.');
