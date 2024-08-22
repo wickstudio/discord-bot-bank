@@ -11,6 +11,10 @@ module.exports = {
             return message.reply('يرجى الإشارة إلى المستخدم الذي تريد تحويل المال إليه.');
         }
 
+        if (targetUser.id === message.author.id) {
+            return message.reply('لا يمكنك التحويل لنفسك.');
+        }
+
         const amount = parseFloat(args[1]);
         if (isNaN(amount) || amount <= 0) {
             return message.reply('يرجى إدخال مبلغ صالح.');
@@ -60,4 +64,4 @@ module.exports = {
             return message.reply('حدث خطأ أثناء محاولة تنفيذ عملية التحويل.');
         }
     }
-};
+}; 
